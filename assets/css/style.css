@@ -1,0 +1,127 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero {
+    background-image: url(/assets/images/hero.jpg);
+    height: 100vh;
+}
+
+.tarseelat-heading {
+    font-size: 80px !important;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-top: 100px !important;
+}
+
+.btn-know-more {
+    background-image: linear-gradient(243deg,#3D72E7 0%,#76b1f9 100%);
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 15px 30px;
+}
+
+.border-img {
+    border-radius: 15px;
+}
+
+.services {
+    background-color: #F8FBFE;
+}
+
+.services-1 {
+    border-top: 6px solid #1E1584;
+}
+
+.services-1 img {
+    height: 100px;
+    width: 100px;
+}
+
+.services-2 {
+    border-top: 6px solid #3D72E7;
+}
+
+.services-2 img {
+    height: 100px;
+    width: 100px;
+}
+
+.services-3 {
+    border-top: 6px solid #B030DB;
+}
+
+.services-3 img {
+    height: 100px;
+    width: 100px;
+}
+
+.services-4 {
+    border-top: 6px solid #B030DB;
+}
+
+.services-4 img {
+    height: 100px;
+    width: 100px;
+}
+
+.services-5 {
+    border-top: 6px solid #37D6BB;
+}
+
+.services-5 img {
+    height: 100px;
+    width: 100px;
+}
+
+.services-6 {
+    border-top: 6px solid #1E1584;
+}
+
+.services-6 img {
+    height: 100px;
+    width: 100px;
+}
+
+.btn-read-more {
+    background-image: linear-gradient(243deg,#3D72E7 0%,#76b1f9 100%);
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 15px 30px;
+    font-weight: 800;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.btn-read-more:hover {
+    border-radius: 50px;
+}
+
+.contact {
+    background-color: #F8FBFE;
+}
+
+.icons {
+    height: 40px;
+    width: 40px;
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .hero {
+        background-image: url(/assets/images/hero.jpg);
+        height: 60vh;
+    }
+    .tarseelat-heading {
+        font-size: 60px !important;
+      
+    }
+
+ }
