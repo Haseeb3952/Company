@@ -38,6 +38,13 @@ body {
 
 .services-1 {
     border-top: 6px solid #1E1584;
+    transition: 0.3s;
+}
+
+.services-1:hover {
+    border-top: 6px solid #1E1584;
+    transform: scale(1.03);
+    cursor: pointer;
 }
 
 .services-1 img {
@@ -47,7 +54,15 @@ body {
 
 .services-2 {
     border-top: 6px solid #3D72E7;
+    transition: 0.3s;
 }
+
+.services-2:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+
 
 .services-2 img {
     height: 100px;
@@ -56,6 +71,7 @@ body {
 
 .services-3 {
     border-top: 6px solid #B030DB;
+    transition: 0.3s;
 }
 
 .services-3 img {
@@ -63,8 +79,14 @@ body {
     width: 100px;
 }
 
+.services-3:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
 .services-4 {
     border-top: 6px solid #B030DB;
+    transition: 0.3s;
 }
 
 .services-4 img {
@@ -72,8 +94,14 @@ body {
     width: 100px;
 }
 
+.services-4:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
 .services-5 {
     border-top: 6px solid #37D6BB;
+    transition: 0.3s;
 }
 
 .services-5 img {
@@ -81,13 +109,24 @@ body {
     width: 100px;
 }
 
+.services-5:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
 .services-6 {
     border-top: 6px solid #1E1584;
+    transition: 0.3s;
 }
 
 .services-6 img {
     height: 100px;
     width: 100px;
+}
+
+.services-6:hover {
+    transform: scale(1.03);
+    cursor: pointer;    
 }
 
 .btn-read-more {
@@ -117,7 +156,7 @@ body {
 @media (max-width: 767.98px) { 
     .hero {
         background-image: url(/assets/images/hero.jpg);
-        height: 60vh;
+        height: 80vh;
     }
     .tarseelat-heading {
         font-size: 60px !important;
