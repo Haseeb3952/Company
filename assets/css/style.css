@@ -160,6 +160,8 @@ body {
     .hero {
         background-image: url(/assets/images/hero.jpg);
         height: 80vh;
+        background-size: cover;
+        opacity: 0.9;
     }
     .tarseelat-heading {
         font-size: 60px !important;
