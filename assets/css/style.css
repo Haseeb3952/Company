@@ -173,6 +173,7 @@ body {
         height: 80vh;
         background-size: cover;
         opacity: 0.9;
+        background-position: center;
     }
     .tarseelat-heading {
         font-size: 60px !important;
