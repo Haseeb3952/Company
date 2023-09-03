@@ -27,12 +27,12 @@ body {
 
 .tarseelat-heading::before {
     content: "JUBL";
-    color: red;
+    color: #52b8e7;
   }
 
   .tarseelat-heading::after {
     content: " ALQALM";
-    color: blue;
+    color: rgb(255, 2, 103);
   }
 
 .btn-know-more {
