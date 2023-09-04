@@ -179,9 +179,7 @@ body {
 @media (max-width: 767.98px) { 
     .hero {
         background-image: url(/assets/images/hero.png);
-        height: 80vh;
-        /* background-size: cover; */
-        /* opacity: 0.9; */
+        height: 100vh;
         background-position: center !important;
     }
     .tarseelat-heading {
