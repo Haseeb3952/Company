@@ -174,17 +174,21 @@ body {
     height: 40px;
     width: 40px;
 }
+.address-icons {
+    height: 50px;
+    width: 80px;
+}
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
     .hero {
         background-image: url(/assets/images/hero.png);
-        height: 90vh;
+        height: 95vh;
         background-position: center !important;
     }
     .tarseelat-heading {
         font-size: 60px !important;
-        padding-top: 180px !important;
+        padding-top: 160px !important;
     }
 
     .logo {
