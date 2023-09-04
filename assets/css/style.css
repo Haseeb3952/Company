@@ -174,15 +174,20 @@ body {
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
     .hero {
-        background-image: url(/assets/images/hero.jpg);
+        background-image: url(/assets/images/hero.png);
         height: 80vh;
         /* background-size: cover; */
-        opacity: 0.9;
+        /* opacity: 0.9; */
         background-position: center !important;
     }
     .tarseelat-heading {
         font-size: 60px !important;
-      
+        padding-top: 200px !important;
+    }
+
+    .logo {
+        height: 50px;
+        width: 200px;
     }
 
  }
